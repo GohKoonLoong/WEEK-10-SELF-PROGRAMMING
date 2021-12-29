@@ -1,0 +1,23 @@
+package myArray;
+
+import java.util.Arrays;
+
+public class Question1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] num = {25,35,10,15,20,30,60,55,34,65};
+		String [] colour = {"Yellow","Green","Black","Purple","Cyan",
+							"Orange","Red","White","Silver","Pink"};
+		
+		System.out.println("Random numbers: " + Arrays.toString(num));
+		Arrays.sort(num);
+		System.out.println("Sorted numbers: " + Arrays.toString(num));
+		
+		System.out.println("Random colours: " + Arrays.toString(colour));
+		Arrays.sort(colour);
+		System.out.println("Sorted colours: " + Arrays.toString(colour));
+		
+	}
+
+}
