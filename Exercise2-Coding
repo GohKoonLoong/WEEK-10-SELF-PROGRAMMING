@@ -1,0 +1,23 @@
+package myArray;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		String[]list1 = new String[5];
+		System.out.println("Enter your favourite colour: ");
+		
+		for(int i=0; i <list1.length; i++)
+		list1[i] =scan.next();
+		
+		String[] list2 = list1;
+		System.out.println();
+		
+		for(String i : list2)
+			System.out.println(i);
+		
+		scan.close();
